@@ -1,6 +1,5 @@
 from fabric.context_managers import shell_env
 from fabric.operations import sudo
-
 from offregister_fab_utils.apt import apt_depends
 
 
