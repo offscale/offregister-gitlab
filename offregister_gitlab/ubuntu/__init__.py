@@ -2,7 +2,7 @@ from fabric.context_managers import shell_env
 from offregister_fab_utils.apt import apt_depends
 
 
-def install0(SERVER_NAME, *args, **kwargs):
+def install0(c, SERVER_NAME, *args, **kwargs):
     apt_depends(c, "curl", "openssh-server", "ca-certificates")
     apt_depends(c, "postfix")
 
