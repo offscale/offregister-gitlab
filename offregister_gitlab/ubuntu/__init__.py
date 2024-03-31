@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from fabric.context_managers import shell_env
 from offregister_fab_utils.apt import apt_depends
 
